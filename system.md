@@ -21,5 +21,7 @@
     `echo | openssl s_client -CAfile /etc/gitlab-runner/gitlab.crt -connect gitlab_url:443`
 
  4. 代入crt路徑重新register
+ 
+ 
       `git-runner register --tls-ca-file /etc/gitlab-runner/gitlab.crt`
  
